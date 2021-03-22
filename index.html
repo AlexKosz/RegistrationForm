@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="css/index.css" />
+
+<head>
+    <h1>Registration Form</h1>
+</head>
+
+<body>
+    <div class="wrapper">
+        <p>First name: *</p>
+        <input type="text">
+    </div>
+    <div class="wrapper">
+        <p>Last name: *</p>
+        <input type="text">
+    </div>
+    <div class="wrapper">
+        <p>Email Address: *</p>
+        <input type="text" />
+    </div>
+    <div class="wrapper">
+        <p>Password: *</p>
+        <input type="text" />
+    </div>
+    <div class="wrapper">
+        <p>Confirm Password: *</p>
+        <input type="text" />
+    </div>
+    <div class="wrapper">
+        <p>Birthday: </p>
+        <input type="date" />
+    </div>
+    <div>
+        <p>Gender Identity: </p>
+        <input type="radio" name="gender"><label for="male">Male<label>
+                <input type="radio" name="gender"><label for="female">Female<label>
+                        <input type="radio" name="gender"><label for="nonbinary">Non-binary<label>
+                                <input type="radio" name="gender"><label for="perfernot">Perfer Not to answer</label>
+    </div>
+    <div>
+        <p>A short description about myself:</p>
+        <textarea name="description" cols="50" rows="5"></textarea>
+    </div>
+    <div class="wrapper">
+        <p>Favorite Language: </p>
+        <select name="favLang">
+            <option>Javascript</option>
+            <option>Python</option>
+            <option>C#</option>
+            <option>Klignon</option>
+        </select>
+    </div>
+    <div class="wrapper">
+        <input type="checkbox">
+        <p>Yes I would like to recieve email updates</p>
+    </div>
+    <input type="submit" value="Create Account">
+    <p>* Indicates a required field.</p>
+
+
+</body>

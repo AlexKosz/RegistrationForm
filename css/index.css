@@ -1,0 +1,12 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.wrapper p{
+    padding-right: 25px;
+}
+
+input{
+    height: 25px;
+}
